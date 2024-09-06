@@ -1,0 +1,169 @@
+
+header{
+    #meu-container {
+        /* Estilos para o elemento com o ID "meu-container" */
+      }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px; /* Aumenta o espaço entre o título e as imagens */
+  }
+  
+.rounded-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 15px;
+  }
+      
+}
+
+body {
+    font-family: "BeaufortForLOL", sans-serif; /* Define a fonte padrão */
+    background-color: #0A1428; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: flex-start; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0;
+    padding: 0;
+}
+
+h1 { /* Estiliza os títulos h1 */
+    font-family: "BeaufortForLOL", sans-serif;
+    background: linear-gradient(to right, #785A28, #C89B3C); /* Cria um gradiente de cor linear do marrom claro (#785A28) para o laranja (#C89B3C) */
+    -webkit-background-clip: text; /* Aplica o gradiente de cor como background para o texto */
+    -webkit-text-fill-color: transparent; /* Torna a cor do texto transparente, deixando apenas o gradiente visível */
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #785A28; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+
+
+ #meu-container {/* Estilos para o elemento com o ID "meu-container" */
+    
+      }
+
+
+.image-container { /** Define um container para as imagens, utilizando o flexbox para layout.*/
+    display: flex; /* Centraliza os itens filhos (imagens) horizontalmente dentro do container.*/
+    justify-content: center; /* Aumenta o espaço entre o título e as imagens */
+    padding-top: 40px; /* Cria um espaço entre o topo do container e o conteúdo interno.*/
+  }
+  
+.rounded-image { /*Cria imagens circulares com margens.*/
+    width: 120px; /*Define a largura da imagem.*/
+    height: 120px; /*Define a altura da imagem.*/
+    border-radius: 50%; /*Cria bordas arredondadas para formar um círculo*/
+    margin: 15px; /*Adiciona uma margem de 15 pixels em todos os lados da imagem*/
+  }
+      
+
+}
+h2 { /*Define o estilo para elementos com a tag <h2>*/
+    text-align: center; /*Alinha o texto ao centro do elemento*/
+    color: #CDFAFA; /*Define a cor do texto para um tom de azul claro*/
+
+  }
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+
+  
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #050505; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #0A1428; /* Cor de fundo do botão */
+    color: #C89B3C; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 30vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 0.5rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #ffffff; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #0397AB; /* Cor do texto */
+}
+/* Estiliza as imagens dentro dos itens de resultado */
+.item-resultado img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 1rem;
+  }
+
+.item {
+    max-width: 300px; /* Ajuste o valor conforme necessário */
+    position: relative;
+  }
+  
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #0397AB; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    left: 0;
+    margin: auto;
+    font-size: 1rem; /* Tamanho da fonte */
+}
